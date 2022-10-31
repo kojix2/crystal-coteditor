@@ -124,12 +124,12 @@ commentDelimiters:
   inlineDelimiter: '#'
 comments: []
 extensions:
-- keyString: rb
-- keyString: erb
+- keyString: cr
+- keyString: ecr
 filenames:
 - keyString: Gemfile
 interpreters:
-- keyString: ruby
+- keyString: crystal
 keywords:
 - beginString: \bclass\s
   regularExpression: true
